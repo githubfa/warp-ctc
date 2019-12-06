@@ -24,7 +24,7 @@ warpctc_pytorch 文件夹
 （以上路径和文件名可能根据Python和系统环境有所差别。）
 复制完成之后可以测试import
 
-###以上成功之后添加以下2行到：~.bashrc  不用该操作
+###~以上成功之后添加以下2行到：~.bashrc  不用该操作
 ###export LD_LIBRARY_PATH=~/anaconda3/lib/python3.7/site-packages/warp-ctc/pytorch_binding:$LD_LIBRARY_PATH
 ###export WARP_CTC_PATH="~/anaconda3/lib/python3.7/site-packages/warp-ctc/build"
 
@@ -34,6 +34,8 @@ warpctc_pytorch 文件夹
                 1、到 https://developer.nvidia.com/cuda-toolkit-archive 自行下载 run安装包安装
     
     二、当前环境
+        LinuxMint19.2
+        gcc-7 G++7
         Python 3.7
         pytorch 1.3.1
         CUDA 10.1

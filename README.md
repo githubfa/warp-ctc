@@ -30,8 +30,8 @@ warpctc_pytorch 文件夹
 
 注意问题：
     一、如果当前的cuda是只是使用conda安装的cudatoolkit版本，则需再安装完整的cuda版本才能完成cmake编译gpu版本 否则只会编译cpu版本。
-安装方法可以使用：
-    1、到 https://developer.nvidia.com/cuda-toolkit-archive 自行下载 run安装包安装
+            安装方法可以使用：
+                1、到 https://developer.nvidia.com/cuda-toolkit-archive 自行下载 run安装包安装
     
     二、当前环境
         Python 3.7
@@ -42,6 +42,7 @@ warpctc_pytorch 文件夹
 
 https://github.com/SeanNaren/deepspeech.pytorch/issues/397
 zhenglilei commented on 15 Oct
+##----
 src/reduce.cu
 Line 44 to : shuff = __shfl_down_sync(0xFFFFFFFF, x, offset);
 
